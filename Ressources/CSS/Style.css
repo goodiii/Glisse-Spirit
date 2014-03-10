@@ -1,0 +1,306 @@
+/* 
+    Document   : Style
+    Created on : 7 mars 2014, 00:39:17
+    Author     : Thomas
+    Description:
+        Purpose of the stylesheet follows.
+*/
+h2{
+    margin:0px;
+}
+
+ul{
+    padding-left:0px;
+    margin:0px
+}
+
+root { 
+    display: block;
+}
+
+body {
+    background: url('../Images/diamond.jpg') no-repeat #e6e6e6;
+    background-position: center 220px;
+    background-size: 1250px 1250px;
+    margin:0px;
+
+}
+
+#menu_login {
+    background-color:#2fafb2;
+    z-index:99;
+}
+
+#header_wrapper {
+    background-color:white;
+}
+
+header{
+    width:980px;
+    height: auto;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:10px;
+}
+
+#nav_header{
+    vertical-align:top;
+    margin-top:5px;
+}
+#nav_header ul{
+    margin-left:10px;
+}
+
+#nav_header li { 
+    padding-right:20px;
+    padding-left:20px;
+    height:44px;
+    font-weight:bold;
+    text-align:center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#nav_home {
+    background: url('../Images/home.png') no-repeat;
+    background-size:60% 60%;
+    background-position: center center;
+}
+
+#banniere{
+    width: 100%;
+    height: 170px;
+    background: url('../Images/logo.jpg') no-repeat;
+    background-size:86% 100%;
+}
+
+#recherche {  
+    margin-bottom:5px;
+}
+
+#recherche form{
+    margin-left:30px;
+}
+
+#creer_profil {  
+    float:right;
+    height: 160px;
+    width:125px;
+    background-color:yellow;
+    margin-right:5px;
+    margin-top:5px;
+}
+
+#submain {
+    width:960px;
+    padding:10px; 
+    padding-top:0px;
+    margin-right:auto;
+    margin-left:auto;
+    background-color:white;
+}
+
+#submain_pub {   
+    width:100%;
+    height:90px;
+    margin-bottom:20px;        
+    background: url('../Images/Billabong_pub.jpg') no-repeat white;
+    background-position: center center;
+}
+
+#submain_nav {
+    background-color:black;
+    color:white;
+    height:25px;
+    margin-bottom:10px;
+}
+
+#submain_nav ul {
+    display:inline-block;
+}
+
+#submain_nav li { 
+    padding-right:5px;
+    padding-left:5px;
+    height:25px;
+    text-align:center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size:0.9em;
+}
+
+#ul_multimedia{
+    float:right;
+}
+
+#submain_section_left {
+    height: auto;
+    display:inline-block;   
+    width:640px;
+    margin-right:20px;
+    vertical-align:top;
+}
+
+#article_une {
+    height:auto;
+    width:100%;
+    margin-bottom:15px;
+    border-bottom:black 1px dashed;
+}
+
+#article_une_titre {
+    text-align: center;
+    padding:5px;
+    margin-bottom:5px;
+    margin-top:5px;
+}
+
+#article_une_titre h2{
+    text-transform:uppercase;
+}
+
+#article_une_image {
+    width:100%;
+    height:260px;
+    background: url('../Images/Kelly-Slater-Wins-2014-Volcom-Pipe-Pro.jpeg') no-repeat;
+    background-size:100% 100%;
+}
+
+
+.article_une_image_sport{
+    display:inline-block;
+    padding:5px;
+    background-color:green;
+    color:white;
+    padding-right:8px;
+    padding-left:8px;
+    padding-top:5px;
+    padding-bottom:5px;
+    opacity:0.9;
+}
+
+.article_une_image_ref{
+    display:inline-block;
+    padding:5px;
+    background-color: blue;
+    color:white;
+    padding-right:8px;
+    padding-left:8px;
+    padding-top:5px;
+    padding-bottom:5px;
+    opacity:0.9;
+}
+
+#article_une_debut {
+    text-align: justify;
+    padding:10px;   
+}
+
+.article {
+    min-height:200px;;
+    padding-bottom:15px;
+    padding-right:10px;
+    border-bottom: black 1px dashed;
+}
+
+.article_image_ref {
+    display:inline-block;
+    padding:5px;
+    background-color: brown;
+    color:white;
+    padding-right:8px;
+    padding-left:8px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.article_image_sport {
+    display:inline-block;
+    padding-right:8px;
+    padding-left:8px;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color: red;
+    color:white;    
+}
+
+.article h3 {
+    text-align:center;
+}
+
+.article p {
+    text-align:justify;
+    padding:0px;
+}
+
+.article_image {
+    width:315px;
+    height:200px;
+    background: url('../Images/Snowbird_Ski_Powder_10.jpg') no-repeat;
+    background-size:100% 100%;
+    display:inline-block;
+    vertical-align:top;
+    float:left;
+    margin-bottom:10px;
+    margin-right:10px;
+}
+
+.article_debut {
+    text-align: justify;
+    padding:5px;
+    display:inline-block;
+    width:310px;
+}
+
+
+#submain_section_right {
+    width: 300px;
+    height: auto;
+    display:inline-block;
+    vertical-align:top;
+}
+
+#login fieldset{
+    margin-top:10px;
+    margin-bottom:20px;
+    text-align: center;  
+}
+
+#Pub1 {
+    height:250px;
+    margin-bottom:50px;
+    margin-top:20px;
+    background: url('../Images/pub_carre.jpg') no-repeat;
+    background-size:100% 100%;
+}
+
+.Dossier{
+    margin-bottom:20px;
+    text-align: center;
+    background: url('../Images/trotinnette.jpg') no-repeat;
+    height:250px
+}
+
+.dossier_titre{
+    opacity:0.4;
+    background-color:grey;
+}
+
+.dossier_titre h3{
+    margin:0px;
+}
+
+footer {
+    height:40px;
+    border-top:black 1px dashed;
+    padding:10px;
+    background-color: #e6e6e6;
+}
+
+.footer_bloc{
+    padding:10px;
+    height:50px;
+    display:inline-block;
+    text-align:center;
+    vertical-align:top;
+}
