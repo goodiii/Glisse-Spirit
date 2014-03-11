@@ -1,0 +1,88 @@
+#surf_left_bandecolor {
+    width:10px;
+    height:230px;
+    background-color:darkseagreen;
+    float:left;
+}
+
+#surf_titre {
+    background-color:darkseagreen;
+} 
+
+#surf_left {
+    display:inline-block;
+    height: auto;
+    margin-right:20px;
+    vertical-align:top;
+    width:640px;
+}
+
+.sport_article {
+    min-height:200px;
+    padding-bottom:15px;
+    padding-right:10px;
+    margin-left:15px;
+    margin-top:5px;
+    border-bottom: black 1px dashed;
+}
+
+.sport_article_image_ref {
+    display:inline-block;
+    padding:5px;
+    background-color: brown;
+    color:white;
+    padding-right:8px;
+    padding-left:8px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.sport_article_image_sport {
+    display:inline-block;
+    padding-right:8px;
+    padding-left:8px;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color: red;
+    color:white;    
+}
+
+.sport_article h2 {
+    text-align:center;
+}
+
+.sport_article p {
+    text-align:justify;
+    padding:0px;
+}
+
+.sport_article_image {
+    width:315px;
+    height:200px;
+    background: url('../Images/Snowbird_Ski_Powder_10.jpg') no-repeat;
+    background-size:100% 100%;
+    display:inline-block;
+    vertical-align:top;
+    float:left;
+    margin-bottom:10px;
+    margin-right:10px;
+}
+
+.sport_article_debut {
+    text-align: justify;
+    padding:5px;
+    display:inline-block;
+    width:310px;
+}
+
+
+#surf_right {
+    width: 300px;
+    display:inline-block;
+    vertical-align:top;
+    margin-top:5px;
+}
+
+#surf_resultat {
+    width:100%;
+}
