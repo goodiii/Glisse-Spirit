@@ -11,14 +11,14 @@
     </div>
     <div id="Pub1">
     </div>
-
-    <div class="Dossier">
-        <div class="dossier_titre"><h3>Titre du dossier</h3></div>
-        <div class="dossier_image"></div>
-    </div>
-
-    <div class="Dossier">
-        <div class="dossier_titre"><h3>Titre du dossier</h3></div>
-        <div class="dossier_image"></div>
+    <div id="dossier"><h2>Dossiers</h2>
+        <div class="Dossier">
+            <div class="dossier_titre"><h3>Titre du dossier</h3></div>
+            <div class="dossier_image"></div>
+        </div>
+        <div class="Dossier">
+            <div class="dossier_titre"><h3>Titre du dossier</h3></div>
+            <div class="dossier_image"></div>
+        </div>
     </div>
 </section>

@@ -1,8 +1,8 @@
 <header>
     <div id="banniere">                    
-        <div id="creer_profil">
+       <!-- <div id="creer_profil">
             <p>Créer son profil Rider</p>
-        </div>
+        </div> -->
     </div>
     <nav id="nav_header">
         <ul>

@@ -1,0 +1,29 @@
+#skate_left_bandecolor {
+    width:10px;
+    height:230px;
+    background-color:darkorange;
+    float:left;
+}
+
+#skate_titre {
+    background-color:darkorange;
+} 
+
+#skate_left {
+    display:inline-block;
+    height: auto;
+    margin-right:20px;
+    vertical-align:top;
+    width:640px;
+}
+
+#skate_right {
+    width: 300px;
+    display:inline-block;
+    vertical-align:top;
+    margin-top:5px;
+}
+
+#skate_resultat {
+    width:100%;
+}
