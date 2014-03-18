@@ -1,7 +1,22 @@
 <section id="submain_section_right">
     <div id="login">
         <div id="login_pub">
-        </div>
+            <div class="flexslider">
+                <ul class="slides">
+                    <li >
+                        <img src="Ressources/Images/home.png" style="width:100%;float:left"/>
+                    </li>
+                    <li>
+                        <img src="Ressources/Images/pub_carre.jpg" />
+                    </li>
+                    <li>
+                        <img src="Ressources/Images/home.png" />
+                    </li>
+                    <li>
+                        <img src="Ressources/Images/pub_carre.jpg" />
+                    </li>
+                </ul>
+            </div></div>
         <fieldset>    
             <legend>Compte Ride</legend>
             <form method="post">
@@ -9,8 +24,7 @@
             </form>
         </fieldset>
     </div>
-    <div id="Pub1">
-    </div>
+    <div id="Pub1"></div>
     <div id="dossier"><h2>Dossiers</h2>
         <div class="Dossier">
             <div class="dossier_titre"><h3>Titre du dossier</h3></div>

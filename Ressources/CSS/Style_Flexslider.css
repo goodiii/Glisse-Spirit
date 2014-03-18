@@ -1,0 +1,39 @@
+/* 
+    Document   : StyleFlexslider
+    Created on : 18 mars 2014, 02:13:31
+    Author     : Thomas
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.flexslider{
+    position:relative;
+
+}
+
+.flex-direction-nav {
+    position:absolute;
+    top:50%;
+    z-index:501;
+}
+
+.flex-next{
+    float:right;   
+}
+
+.flex-direction-nav ul{
+    width:100%;
+}
+
+.flex-direction-nav li{
+    display:inline-block;
+}
+
+.flexslider img {
+    width:302px;
+    height:148px;
+}
