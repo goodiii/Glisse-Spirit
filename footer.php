@@ -3,8 +3,10 @@
 </footer>
 <script defer="" src="Ressources/Js/flexslider.js.js"></script>
 <script type="text/javascript"> $(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide"
-  });
-});
+        $('.flexslider').flexslider({
+            animation: "slide"
+        });
+    });
 </script>
+<script src="Ressources/Js/menu.js"></script>
+<script src="Ressources/Js/submain_nav.js"></script>

@@ -21,21 +21,21 @@ root {
 
 body {
     margin:0px;
-    background: url('../Images/diamond.jpg') no-repeat #e6e6e6;
+ /*   background: url('../Images/diamond.jpg') no-repeat #e6e6e6; */
     background-position: center 0px;
     background-size: 1250px 1250px; 
 }
 
- /* #pub_fond {
-    background: url('../Images/diamond.jpg') no-repeat #e6e6e6;
-    background-position: center;
-    background-size: 100% 100%;  
-    position:absolute;
-    left:auto;
-    right:auto;
-    width:1250px;
-    height:1250px;
-    z-index:1;
+/* #pub_fond {
+   background: url('../Images/diamond.jpg') no-repeat #e6e6e6;
+   background-position: center;
+   background-size: 100% 100%;  
+   position:absolute;
+   left:auto;
+   right:auto;
+   width:1250px;
+   height:1250px;
+   z-index:1;
 } */
 
 #menu_login {
@@ -141,7 +141,6 @@ header{
     background-color:black;
     color:white;
     height:25px;
-    margin-bottom:10px;
     display:inline-block;
     width:100%;
 }
@@ -150,14 +149,26 @@ header{
     display:inline-block;
 }
 
-#submain_nav li { 
-    padding-right:5px;
-    padding-left:5px;
+#submain_nav li, #sn_snav li { 
+    padding-left:10px;
     height:25px;
-    text-align:center;
     display: table-cell;
     vertical-align: middle;
     font-size:0.9em;
+    width:120px;
+}
+
+#submain_subnav{
+    width:100%;
+    height:20px;
+    background-color:grey;
+    margin-bottom:10px;
+}
+
+#sn_snav {
+    background-color:cadetblue;
+    display:none;
+    height:25px;
 }
 
 #ul_multimedia{
@@ -290,7 +301,6 @@ header{
 
 #login_pub {
     height:146px;
-    border:1px black dashed;
     width:100%;
     height:100%;
 }
@@ -310,13 +320,8 @@ header{
     background-size:100% 100%;
 }
 
-#dossier {
-    background-color:activecaption;
-}
-
 #dossier h2{
     width:100%;
-    background-color: grey;
     margin-bottom:5px;
     color:white;
     text-align:center;
@@ -325,12 +330,9 @@ header{
 .Dossier{
     margin-bottom:15px;
     text-align: center;
-    background: url('../Images/trotinnette.jpg') no-repeat;
-    height:250px
 }
 
 .dossier_titre{
-    opacity:0.4;
     background-color:grey;
 }
 

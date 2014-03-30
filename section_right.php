@@ -16,7 +16,8 @@
                         <img src="Ressources/Images/pub_carre.jpg" />
                     </li>
                 </ul>
-            </div></div>
+            </div>
+        </div>
         <fieldset>    
             <legend>Compte Ride</legend>
             <form method="post">
@@ -25,14 +26,30 @@
         </fieldset>
     </div>
     <div id="Pub1"></div>
-    <div id="dossier"><h2>Dossiers</h2>
         <div class="Dossier">
             <div class="dossier_titre"><h3>Titre du dossier</h3></div>
-            <div class="dossier_image"></div>
+            <div class="flexslider">
+                <ul class="slides">
+                    <li >
+                        <img src="Ressources/Images/surf-art-mayumi-tsubokura.jpg" style="width:100%;float:left"/>
+                    </li>
+                    <li>
+                        <img src="Ressources/Images/trotinnette.jpg" style="width:100%;float:left" />
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class="Dossier">
-            <div class="dossier_titre"><h3>Titre du dossier</h3></div>
-            <div class="dossier_image"></div>
+            <div class="dossier_titre"><h3>Titre de l'interview</h3></div>
+            <div class="flexslider">
+                <ul class="slides">
+                    <li >
+                        <img src="Ressources/Images/olivia-piana.jpg" style="width:100%;float:left"/>
+                    </li>
+                    <li>
+                        <img src="Ressources/Images/mirjam.jpg" style="width:100%;float:left" />
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
 </section>

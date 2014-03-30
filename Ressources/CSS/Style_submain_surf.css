@@ -81,8 +81,27 @@
     display:inline-block;
     vertical-align:top;
     margin-top:5px;
+    margin-bottom:10px;
+
 }
 
 #surf_resultat {
     width:100%;
+    margin-bottom:20px;
+    height:160px;
+}
+
+#surf_right h3{
+    text-align:center;
+    background-color:gainsboro;
+    margin-top:0px;
+    margin-bottom:5px;
+    font-size: 1.2em;
+}
+
+
+#surf_resultat {
+    width:100%;
+    margin-bottom:20px;
+    height:160px;
 }
