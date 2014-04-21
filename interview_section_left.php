@@ -2,10 +2,16 @@
 
 include_once('BDD/index_req.php');
 include_once('BDD/interview_req.php');
-if (isset($_POST['id_interview'])) {
-
-    //  récupération de l'id du dossier par POST et requete des toutes les données du dossier concernées
+if (isset($_POST['id_interview']) || isset($_GET['id_interview'])) {
+    //  récupération de l'id de l'interview par POST et requete des toutes les données de l'interview concernées
+if (isset($_POST['id_interview'])){
     $id = $_POST['id_interview'];
+}
+ //  récupération de l'id de l'interview par GET et requete des toutes les données de l'interview concernées
+else if (isset($_GET['id_interview'])){
+    $id = $_GET['id_interview'];
+}
+
     $int = interview($id);
     $i_sport_color = sport_color($int);
     $i_ref_color = ref_color($int);

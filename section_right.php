@@ -58,18 +58,21 @@
         $int3 = interview_last(3);
         ?>
         <a href="interview.php"><h3>INTERVIEWS</h3></a>
-        <div class="flexslider">
-            <ul class="slides">
-                <li >
-                    <img src="Ressources/Images/<?php echo $int1['url_image']; ?>" style="width:100%;float:left"/>
-                </li>
-                <li>
-                    <img src="Ressources/Images/<?php echo $int2['url_image']; ?>" style="width:100%;float:left" />
-                </li>
-                <li>
-                    <img src="Ressources/Images/<?php echo $int3['url_image']; ?>" style="width:100%;float:left" />
-                </li>
-            </ul>
-        </div>
+        <a href="interview.php?id_interview=<?php echo $int1['id']; ?>"> 
+            <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <img src="Ressources/Images/<?php echo $int1['url_image']; ?>" style="width:100%;float:left"/>
+                    </li>
+                    <li>        
+                        <img src="Ressources/Images/<?php echo $int2['url_image']; ?>" style="width:100%;float:left" />
+                    </li>
+                    <li>
+                        <img src="Ressources/Images/<?php echo $int3['url_image']; ?>" style="width:100%;float:left" />
+                    </li>
+                </ul>
+            </div>
+        </a> 
+
     </div>
 </section>
