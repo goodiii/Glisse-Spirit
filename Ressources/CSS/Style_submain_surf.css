@@ -1,17 +1,21 @@
 #surf_left_bandecolor {
     width:10px;
-    height:230px;
-    background-color:darkseagreen;
+    height:100%;
+    background-color:#a0cce1;
     float:left;
 }
 
 #surf_titre {
-    background-color:darkseagreen;
+    background-color:#a0cce1;
+} 
+
+#surf_titre h2 {
+    margin-left:10px;
 } 
 
 #surf_left {
     display:inline-block;
-    height: auto;
+    height: 90%;
     margin-right:20px;
     vertical-align:top;
     width:640px;
@@ -21,9 +25,8 @@
     min-height:200px;
     padding-bottom:15px;
     padding-right:10px;
-    margin-left:15px;
+    margin-left:10px;
     margin-top:5px;
-    border-bottom: black 1px dashed;
 }
 
 .sport_article_image_ref {

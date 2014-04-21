@@ -5,12 +5,12 @@
 // Declaration des variables
 // Couleurs
 glisseecolo_col = "#cdeecd";
-surf_col = "#cff6f3";
-kite_col = "#a0cce1";
-snow_col = "#c9c4f1";
-ski_col = "#d4d2e3";
-skate_col = "#ead5bd";
-lb_col = "#fde1c2";
+surf_col = "#a0cce1";
+kite_col = "#cff6f3";
+snow_col = "#feaf6f";
+ski_col = "#DAA520";
+skate_col = "#D3D3D3";
+lb_col = "#b9b9ba";
 trot_col = "";
 autres_col = "";
 
@@ -35,22 +35,31 @@ function color_switch(div, color) {
             MsTransition: 'background-color 1s ease-in-out',
             OTransition: 'background-color 1s ease-in-out'
         });
-    });
-        $('#' + div).mouseout(function() {
-            $(this).css({
-                backgroundColor: 'white',
-                WebkitTransition: 'background-color 0.1s ease-in-out',
-                MozTransition: 'background-color 1s ease-in-out',
-                MsTransition: 'background-color 1s ease-in-out',
-                OTransition: 'background-color 1s ease-in-out'
-            });
+        $('body').css({
+            background: 'linear-gradient(#dbffff,'+color+')',
+            WebkitTransition: 'background 0.1s ease-in-out',
+            MozTransition: 'background 1s ease-in-out',
+            MsTransition: 'background 1s ease-in-out',
+            OTransition: 'background 1s ease-in-out'
         });
-    }
+    });
+    $('#' + div).mouseout(function() {
+        $(this).css({
+            backgroundColor: 'white',
+            WebkitTransition: 'background-color 0.1s ease-in-out',
+            MozTransition: 'background-color 1s ease-in-out',
+            MsTransition: 'background-color 1s ease-in-out',
+            OTransition: 'background-color 1s ease-in-out'
+        });
+    });
+}
 // Activation du changement de couleur
-color_switch(nav_glisseecolo, glisseecolo_col);
-color_switch(nav_surf, surf_col);
-color_switch(nav_kite, kite_col);
-color_switch(nav_snow, snow_col);
-color_switch(nav_ski, ski_col);
-color_switch(nav_skate, skate_col);
-color_switch(nav_lb, lb_col);
+$(function() {
+    color_switch(nav_glisseecolo, glisseecolo_col);
+    color_switch(nav_surf, surf_col);
+    color_switch(nav_kite, kite_col);
+    color_switch(nav_snow, snow_col);
+    color_switch(nav_ski, ski_col);
+    color_switch(nav_skate, skate_col);
+    color_switch(nav_lb, lb_col);
+});

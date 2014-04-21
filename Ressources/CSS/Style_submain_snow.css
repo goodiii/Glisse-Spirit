@@ -1,19 +1,19 @@
-#skate_left_bandecolor {
+#snow_left_bandecolor {
     width:10px;
     height:100%;
-    background-color:#d3d3d3;
+    background-color:#feae6e;
     float:left;
 }
 
-#skate_titre {
-    background-color:#d3d3d3;
+#snow_titre {
+    background-color:#feae6e;
 } 
 
-#skate_titre h2 {
+#snow_titre h2 {
     margin-left:10px;
 } 
 
-#skate_left {
+#snow_left {
     display:inline-block;
     height: 90%;
     margin-right:20px;
@@ -21,7 +21,7 @@
     width:640px;
 }
 
-#skate_right {
+#snow_right {
     width: 300px;
     display:inline-block;
     vertical-align:top;
@@ -29,7 +29,7 @@
     margin-bottom:10px;
 }
 
-#skate_right h3{
+#snow_right h3{
     text-align:center;
     background-color:gainsboro;
     margin-top:0px;
@@ -38,7 +38,7 @@
 }
 
 
-#skate_resultat {
+#snow_resultat {
     width:100%;
     margin-bottom:20px;
     height:160px;

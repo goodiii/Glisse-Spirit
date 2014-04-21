@@ -17,8 +17,10 @@ root {
 
 .flex-direction-nav {
     position:absolute;
-    top:50%;
+    top:0%;
     z-index:501;
+    width:100%;
+    height:100%;
 }
 
 .flex-prev, .flex-next{
@@ -27,6 +29,7 @@ root {
     display:inline-block;
     width:20px;
     opacity:0.2;
+    height:100%;
 }
 
 .flex-prev:hover, .flex-next:hover{
@@ -35,22 +38,26 @@ root {
 
 .flex-prev{
     background: url('../Images/fleche_left.png') no-repeat;
-    background-size:100% 100%;
-    margin-left:10px;
+    background-size:50% 23%;
+    background-position-y: 50%;
 }
 
 .flex-next{
-    margin-left:240px;
+    margin-left:250px;
     background: url('../Images/fleche_right.png') no-repeat;
-    background-size:100% 100%;
+    background-size:50% 23%;
+    background-position: 100% 50%;
 }
 
 .flex-direction-nav ul{
     width:100%;
+    height:100%;
 }
 
 .flex-direction-nav li{
     display:inline-block;
+    vertical-align:top;
+    height:100%;
 }
 
 .flexslider img {

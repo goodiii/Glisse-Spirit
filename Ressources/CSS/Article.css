@@ -1,11 +1,8 @@
 #article_wrapper{
-    width:100%;
     margin-bottom:15px;
-    padding-top:15px;
-    border-bottom:black 1px dashed;
+    padding:15px 10px 10px 10px;
     text-align:justify;
     background-color:#efeff1;
-    padding-right:10px;
 }
 
 #article_wrapper h2 {
@@ -14,12 +11,11 @@
 
 #article_image {
     float:left;
-    height:150px;
-    width:320px; 
+    width:300px; 
     margin-right:20px;
     margin-bottom:10px;
-    background:url('../Images/Kelly-Slater-Wins-2014-Volcom-Pipe-Pro.jpeg') no-repeat;
-    background-size:100% 100%;
+/*    background:url('../Images/Kelly-Slater-Wins-2014-Volcom-Pipe-Pro.jpeg') no-repeat;
+    background-size:100% 100%;  */
 }
 
 #article_video {
@@ -27,6 +23,7 @@
     margin-right:auto;
     width:100%;
     height:350px;
+    display:inline-block;
 }
 
 #article_reseauxsociaux {
@@ -49,14 +46,14 @@
 }
 
 #article_fb{
-    background-image:url('../Images/fb_img.png');
+    background-image:url('../Images/Logo/fb_img.png');
 }
 #article_tw{
-    background-image:url('../Images/tweeter_img.png');
+    background-image:url('../Images/Logo/tweeter_img.png');
 }
 
 #article_gm {
-    background-image:url('../Images/gmail_img.png');
+    background-image:url('../Images/Logo/gmail_img.png');
 }
 #article_let_commentaire{
     height:150px;
@@ -75,6 +72,10 @@
 
 #article_commentaire {
     background-color:#c9e6fa;
+}
+
+#article_commentaire h3 {
+    margin:0px;
 }
 
 .article_input {

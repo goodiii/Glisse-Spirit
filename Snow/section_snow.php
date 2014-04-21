@@ -1,22 +1,19 @@
 <section class="submain_section_sport">
-    <div id="surf_titre">
-        <h2>SURF</h2>
+    <div id="snow_titre">
+        <h2>SNOW</h2>
     </div>
-    <section id="surf_left">
-        <div id="surf_left_bandecolor">
+    <section id="snow_left">
+        <div id="snow_left_bandecolor">
         </div>
-        <a id="aform_art1">
-            <form id="form_art1" method="post" action="article.php" style="display:none"><input type="hidden" name="id_article" value="<?php echo $art_surf1['id']; ?>"/><input type="submit"/></form>
-            <div class="sport_article">
                 <?php
-                $dernier_article = articles_surf(1);
-                $avantdernier_article = articles_surf(2);
+                $dernier_article = articles_snow(1);
+                $avantdernier_article = articles_snow(2);
                 article_ecrire($dernier_article);
                 article_ecrire($avantdernier_article);
                 ?>
-    </section><section id="surf_right">
+    </section><section id="snow_right">
         <h3>CLASSEMENT</h3>
-        <img id="surf_resultat" src="Ressources\Images\classement_surf_exemple.jpg"/>
+        <img id="snow_resultat" src="Ressources/Images/classement_surf_exemple.jpg"/>
         <div class="Dossier">
             <div class="dossier_titre"><h3>Titre de l'interview</h3></div>
             <div class="flexslider">
